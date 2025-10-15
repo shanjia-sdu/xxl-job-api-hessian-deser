@@ -18,9 +18,10 @@ import java.util.concurrent.TimeUnit;
 
 public class Main {
 	public static void main(String[] args) throws IOException {
-		System.out.println("********************************************");
-		System.out.println("*** XXL-Job 2.0.0-2.1.0 api exploit tool ***");
-		System.out.println("********************************************\n");
+		System.out.println("********************************************************************");
+		System.out.println("***             XXL-Job 2.0.0-2.1.0 api exploit tool             ***");
+		System.out.println("*** 该工具仅限于研究学习使用，其它环境下使用请先确保有足够的授权 ***");
+		System.out.println("********************************************************************");
 		String target;
 		if (args.length < 1) {
 			System.out.println("输入目标地址：");
