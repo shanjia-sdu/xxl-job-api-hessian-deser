@@ -18,18 +18,21 @@ import java.util.concurrent.TimeUnit;
 
 public class Main {
 	public static void main(String[] args) throws IOException {
-		System.out.println("********************************************************************");
-		System.out.println("***             XXL-Job 2.0.0-2.1.0 api exploit tool             ***");
-		System.out.println("*** 该工具仅限于研究学习使用，其它环境下使用请先确保有足够的授权 ***");
-		System.out.println("********************************************************************");
+		System.out.println("****************************************************************************");
+		System.out.println("***               XXL-Job v2.0.0-2.1.0 /api 接口一键利用工具             ***");
+		System.out.println("***     该工具仅限于研究学习使用，其它环境下使用请先确保有足够的授权     ***");
+		System.out.println("*** 由于传播、利用此工具所提供的信息而造成的任何直接或者间接的后果及损失 ***");
+		System.out.println("***                         作者不承担任何责任。                         ***");
+		System.out.println("****************************************************************************");
 		String target;
 		if (args.length < 1) {
-			System.out.println("输入目标地址：");
+			System.out.println("如同意上述声明，请输入目标地址：");
 			System.out.println("eg.: http(s)://ip:port/xxl-job-admin/api");
 			Scanner in = new Scanner(System.in);
 			target = in.nextLine();
 		} else {
 			target = args[0];
+			System.out.println("启动程序代表您已同意上述声明。");
 		}
 		System.out.println("Target: " + target);
 
